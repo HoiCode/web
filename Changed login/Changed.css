@@ -1,0 +1,70 @@
+body
+{
+    background-image: url('img.jpg');
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+#frames
+{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#changed-pass
+{
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 45px;
+}
+.form-heading
+{
+    font-size: 25px;
+    color: rgba(212, 255, 85, 1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form-group
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i
+{
+    color: aliceblue;
+}
+.form-input
+{
+    background: none;
+    border: none;
+    outline: none;
+    color: rgba(0, 255, 170, 1);
+    flex-grow: 1;
+    padding: 3px 15px;
+}
+.form-input::placeholder
+{
+    color: aqua;
+}
+.eye i
+{
+	cursor: pointer;
+}
+.form-submit
+{
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 1);;
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    transition: 0.25s;
+}
+.form-submit:hover
+{
+    border: 1px solid rgb(197, 156, 156);
+    background: rgba(192, 220, 192, 0.5);
+}
